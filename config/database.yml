@@ -13,7 +13,7 @@ development:
   adapter: postgresql
   host: localhost
   username: 
-  database: sample-app-dev
+  database: db/sample-app-dev
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -26,13 +26,13 @@ test:
   adapter: postgresql
   host: localhost
   username: 
-  database: sample-app-test
+  database: db/sample-app-test
 
 production:
   adapter: postgresql
   host: localhost
   username: 
-  database: sample-app-prod
+  database: db/sample-app-prod
   # adapter: sqlite3
   # database: db/production.sqlite3
   # pool: 5
